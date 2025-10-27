@@ -15,7 +15,7 @@
                 Curruncy Converter
             </h2>
             <div class="amount">
-                 <p>Enter Amount:</p> 
+                 <label for="amount"><p>Enter Amount:</p> </label>
                  <input value="100" type="text" id="amount">      
             </div>
              <div class="dropdown">
@@ -23,7 +23,7 @@
                     <p>From</p>
                     <div class="select-container">
                         <img src="https://flagcdn.com/w40/us.png" alt="">
-                        <select name="from">
+                        <select name="from" aria-label="Choose Category">
                         </select>
                     </div>
                 </div>
@@ -32,13 +32,13 @@
                         <p>To</p>
                     <div class="select-container">
                         <img src="https://flagcdn.com/w40/pk.png" alt="">
-                        <select name="to">
+                        <select name="to" aria-label="Choose Category">
                         </select> 
                     </div>
                 </div>
             </div>
              <div class="msg">1USD  = 280PKR</div>
-             <button>Get Exchange Rate</button>
+             <button type="button">Get Exchange Rate</button>
             </form>
             
         </div>
